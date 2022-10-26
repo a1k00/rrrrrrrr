@@ -1,0 +1,124 @@
+
+ img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+       border: 5px solid rgb(255, 255, 255);
+       object-fit: cover;
+   }
+.second{
+width:80%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top: 30px;
+}
+.first{
+    width:80%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    margin-top: 30px;  
+}
+.sosi{
+
+    margin-left: 450px;
+    overflow-x: hidden;
+  
+}
+h1{
+    margin-left:700px;
+    color:rgb(255, 255, 255)
+}
+.vak{
+    background-color: rgba(181, 205, 233, 0.753);
+}
+img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+p:hover{
+    transform: scaleX(1.1);
+    transition: 2s;
+}
+
+.app_first{
+    position: absolute;
+    top:0%;
+    animation-name: sonea;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+ 
+    /* animation-delay: 2s; */
+
+}
+@keyframes sonea{
+    0%{
+top:100%;
+opacity: 0.2;
+    }
+    100%{
+top:0%;
+opacity: 1;
+    }
+}
+
+
+.app_second{
+    position: absolute;
+    top:20%;
+    animation-name: soneaa;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 5s;
+
+
+}
+@keyframes soneaa{
+    0%{
+top:100%;
+opacity: 0;
+    }
+    100%{
+top:25%;
+opacity: 1;
+    }
+}
+.app_third{
+    position: absolute;
+    top:40%;
+    animation-name: soneaaa;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 10s;
+
+}
+@keyframes soneaaa{
+    0%{
+top:100%;
+
+    }
+    100%{
+top:50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
